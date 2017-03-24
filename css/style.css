@@ -1,0 +1,111 @@
+@font-face
+{
+    src: url("../font/circular.otf");
+    font-family: "circular";
+}
+
+body
+{
+  margin: auto;
+}
+
+/*~~~~~~~~~~Header Part~~~~~~~~~~~*/
+header
+{
+  width: 100%;
+  height: auto;
+}
+
+/*Top header*/
+figure
+{
+  display: inline-flex;
+  width: 58px;
+  height: 34px;
+  margin: auto;
+  padding: 15px 24px 15px 21px;
+}
+
+#logo
+{
+  fill:#FF5A5F;
+  width:34px;
+  height:34px;
+}
+
+#chevron
+{
+  width: 9px;
+  height: 9px;
+  fill: grey;
+  transform:rotate(0deg);
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+
+#logo,#chevron
+{
+  display: inline-flex;
+  margin: auto;
+}
+/*Titre*/
+h1
+{
+  font-family: "circular";
+  margin: auto;
+  font-size: 24.5px;
+  font-weight: 500;
+  color: #484848;
+  padding: 27px 40px 20px 24px;
+}
+
+h1 span
+{
+  font-weight: 600;
+  color:#FF5A5F;
+}
+
+/*Navigation*/
+.input-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  width: 84.5%;
+  height: 41px;
+  background-color: #ffffff;
+  border: 0.5px solid #DBDBDB;
+  border-radius: 4px;
+  text-align: left;
+}
+
+#logoloupe
+{
+  display: inline-flex;
+  fill:#868686;
+  height:18px;
+  width:18px;
+  vertical-align: middle;
+  margin: 12px auto auto 10px;
+}
+
+#inputput
+{
+  display: inline-flex;
+  width: 85%;
+  vertical-align: middle;
+  margin: auto 8px auto 4px;
+  text-align: left;
+  border: none;
+  font-family: "circular";
+  font-size: 15px;
+  color: #404040;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-container
+{
+  display: inline-flex;
+  float: left;
+}
