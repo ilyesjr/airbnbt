@@ -40,6 +40,7 @@ figure
   fill: grey;
   transform:rotate(0deg);
   vertical-align: middle;
+  margin-left: 9px;
   padding-bottom: 4px;
 }
 
@@ -48,6 +49,8 @@ figure
   display: inline-flex;
   margin: auto;
 }
+/*<!-- ~~~~~~~~~~~~~~~~~~ -->*/
+
 /*Titre*/
 h1
 {
@@ -64,6 +67,7 @@ h1 span
   font-weight: 600;
   color:#FF5A5F;
 }
+/*<!-- ~~~~~~~~~~~~~~~~~~ -->*/
 
 /*Navigation*/
 .input-container
@@ -71,7 +75,7 @@ h1 span
   display: flex;
   flex-wrap: wrap;
   margin: 30px auto;
-  width: 84.5%;
+  width: 87.87%;
   height: 41px;
   background-color: #ffffff;
   border: 0.5px solid #DBDBDB;
@@ -86,7 +90,7 @@ h1 span
   height:18px;
   width:18px;
   vertical-align: middle;
-  margin: 12px auto auto 10px;
+  margin: 12px auto auto 12px;
 }
 
 #inputput
@@ -94,18 +98,76 @@ h1 span
   display: inline-flex;
   width: 85%;
   vertical-align: middle;
-  margin: auto 8px auto 4px;
+  margin: auto 3px auto 7px;
   text-align: left;
   border: none;
   font-family: "circular";
   font-size: 15px;
-  color: #404040;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+/*Couleur du placeholder, j'me casse la tête pour rien !*/
+::-webkit-input-placeholder { /* Chrome */
+  color: #484848;
+}
+
+#inputput:focus
+{
+  outline: none;
+}
+
 .menu-container
 {
-  display: inline-flex;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e4e4e4;
+  width: 87.87%;
+  height: 50px;
+  margin: 48px auto;
 }
+
+.menu-container ul
+{
+  list-style-type: none;
+  display:inline-flex;
+  font-size: 12px;
+  font-family: "circular";
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #008489;
+  padding:0px;
+  text-align: left;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 60%;
+  margin-top: 20px;
+  text-overflow: ellipsis;
+}
+
+.menu-container li
+{
+  display: inline-flex;
+  padding: 0px 0px 0px 0px;
+  margin-right: 16px;
+}
+
+.menu-container li:nth-child(1)
+{
+  border-bottom: 2px solid #008489;
+}
+
+.menu-container li:nth-child(1) a
+{
+  color: #008489;
+}
+
+.menu-container li a
+{
+  text-decoration: none;
+  color: #767676;
+}
+/*<!-- ~~~~~~~~~~~~~~~~~~ -->*/
+/*<!-- ~~~~~~~~~~~~~~~~~~ -->*/
+
+/*~~~~~~~~~~Section part~~~~~~~~~~~*/
