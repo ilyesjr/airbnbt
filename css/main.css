@@ -297,7 +297,7 @@ h1 span {
 
 .articlou article {
     padding: 0 6px 32px 6px;
-    width: 50%;
+    width: 65%;
 }
 
 .articlou figure {
@@ -472,6 +472,7 @@ footer ul li {
         justify-content: space-between;
         margin-bottom: 48px;
     }
+
 }
 
 
